@@ -17,11 +17,13 @@
         text-align: center;
         justify-content: center;
     }
-    h2 {
+   
+}
+.office-address  h2 {
         text-align: center;
         margin-top: 20px;
-        font-size: 20px;
-    }
+        font-size: 28px;
+        font-weight:600;
 }
 @media screen and (max-width: 1024px) {
     .office-address {
@@ -56,7 +58,19 @@
 
     .office-address h2 {
         margin-top: 20px;
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .office-address p,
+    .office-address address {
+        font-size: 0.9rem;
+        padding: 0.4rem 0rem;
+        line-height: 1.5rem;
+    }
+    .office-address h2 {
+        margin-top: 20px;
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 480px) {
